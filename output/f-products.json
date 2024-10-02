@@ -54,33 +54,5 @@
         "price": 50,
         "image": "img/caroil.jpg",
         "brand": "Toyota"
-    },
-    {
-        "id": 9,
-        "name": "Product 9",
-        "price": 70,
-        "image": "img/caroil.jpg",
-        "brand": "Toyota"
-    },
-    {
-        "id": 10,
-        "name": "Product 10",
-        "price": 50,
-        "image": "img/caroil.jpg",
-        "brand": "Toyota"
-    },
-    {
-        "id": 11,
-        "name": "Product 11",
-        "price": 50,
-        "image": "img/caroil.jpg",
-        "brand": "Toyota"
-    },
-    {
-        "id": 12,
-        "name": "Product 12",
-        "price": 50,
-        "image": "img/caroil.jpg",
-        "brand": "Toyota"
     }
 ]

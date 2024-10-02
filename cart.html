@@ -7,7 +7,6 @@
     <title>AutoWare Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="shop.css">
-    <link rel="stylesheet" href="sproduct.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
     <script src="https://kit.fontawesome.com/6862657acb.js" crossorigin="anonymous"></script>
 </head>
@@ -20,50 +19,71 @@
         <div>
             <ul id="navbar">
                 <li><a  href="index.html">Home</a></li>
-                <li><a  class="active" href="shop.html">Shop</a></li>
+                <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                <li id="lg-bag" ><a class="active"href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
                 <a href="#" id="close"><i class="fa-solid fa-xmark"></i>
                 <span id="cart-count">0</span></a>
             </ul>
         </div>
         <div id="mobile">
-            <a href="cart.html"><i class="fas fa-shopping-bag"></i>
-                <span id="mobile-cart-count">0</span></a>
+            <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+            <span id="mobile-cart-count">0</span>
             <i id="bar" class="fa-solid fa-bars"></i>
         </div>
     </section>
 
-    <section id="prodetails" class="section-p1">
-        <div class="single-pro-image">
-            <img id="product-img" width="100%" alt="">
+    <section id="page-header">
+        <h2>#cart</h2>
+        
+        <p>Save more on all of our deals!</p>
+   
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
         </div>
-        <div class="single-pro-details">
-            <h4 id="product-name"></h4>
-            <h2 id="product-price"></h2>
-        <select id="options">
-            <option>Select Size</option>
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
-        </select>
-        <input type="number" value="1" id="quantity">
-        <button class="normal" id="add-to-cart">Add to Cart</button>
-        <h4>Product Details</h4>
-        <span>Detailed description of the product goes here.Htis Product is a car part which is amazing.Very Amazing , as it's used to attach to your car and be a better part of your car.</span>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Total</td>
+                    <td id="cart-total"></td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+            </table>
+            <button class="normal"> Proceed to checkout</button>
         </div>
     </section>
 
-
-    <section id="product1" class="section-p1">
-        <h2>Featured Products</h2>
-        <p>Customers usually buy these products aswell!</p>
-        <div class="pro-container" id="featured-products">
-        </div>
-    </section>
-    
     <section id="newsletter" class="section-p1 section-m1">
         <div class="newtext">
             <h4>Sign Up For Newsletters</h4>
@@ -113,6 +133,8 @@
         </div>
     </footer>
 
+
+    
 
     <script src="script.js"></script>
     <script src="cart.js"></script>
