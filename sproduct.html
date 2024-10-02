@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoWare Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="sproduct.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
     <script src="https://kit.fontawesome.com/6862657acb.js" crossorigin="anonymous"></script>
 </head>
@@ -17,8 +19,8 @@
 
         <div>
             <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -32,43 +34,29 @@
         </div>
     </section>
 
-    <section id="hero">
-        <h2>Super Value Deals</h2>
-        <h1>On all products</h1>
-        <p>Save more on all of our deals!</p>
-        <button>Shop Now</button>
-    </section>
-
-    <section id="feature" class="section-p1">
-        <div class="fe-box">
-            <img src="img/54632-1.png" alt="">
-            <h6>Toyoto 1</h6>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img id="product-img" width="100%" alt="">
         </div>
-        <div class="fe-box">
-            <img src="img/onlineorder.jpg" alt="">
-            <h6>Toyoto 2</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/svemon.jpg" alt="">
-            <h6>Toyoto 3</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/quick.jpg" alt="">
-            <h6>Toyoto 4</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/247.jpg" alt="">
-            <h6>Toyoto CHR</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/happycar.jpg" alt="">
-            <h6>Toyoto</h6>
+        <div class="single-pro-details">
+            <h4 id="product-name"></h4>
+            <h2 id="product-price"></h2>
+        <select id="options">
+            <option>Select Size</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal">Add to Cart</button>
+        <h4>Product Details</h4>
+        <span>Detailed description of the product goes here.Htis Product is a car part which is amazing.Very Amazing , as it's used to attach to your car and be a better part of your car.</span>
         </div>
     </section>
 
     <section id="product1" class="section-p1">
-        <h2>Featured Products</h2>
-        <p>Everyday In Need Products to Buy</p>
+        <h2>Recommended Products</h2>
+        <p>Customers usually buy these products aswell!</p>
         <div class="pro-container" id="featured-products">
             <div class="pro">
                 <img src="img/caroil.jpg" alt="">
@@ -134,88 +122,9 @@
                 </div>
                 <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
             </div>
-            <div class="pro">
-                <img src="img/caroil.jpg" alt="">
-                <div class="des">
-                    <span>Toyoto</span>
-                    <h5>Product 1</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>£50</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/caroil.jpg" alt="">
-                <div class="des">
-                    <span>Toyoto</span>
-                    <h5>Product 1</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>£50</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/caroil.jpg" alt="">
-                <div class="des">
-                    <span>Toyoto</span>
-                    <h5>Product 1</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>£50</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-            </div>
-            <div class="pro">
-                <img src="img/caroil.jpg" alt="">
-                <div class="des">
-                    <span>Toyoto</span>
-                    <h5>Product 1</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>£50</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-            </div>
         </div>
     </section>
-
-    <section id="sm-banner" class="section-p1">
-        <div class="banner-box">
-            <h4>New Tyres</h4>
-            <h2>Discover the Latest Tyres</h2>
-            <span>Unmatched performance, safety, and durability – Upgrade your ride today!</span>
-            <button class="white">Learn More</button>
-        </div>
-        <div class="banner-box banner-box2">
-            <h4>Essential Car Kits</h4>
-            <h2>Upgrade Your Drive</h2>
-            <span>Everything you need for performance, safety, and convenience!</span>
-            <button class="white">Learn More</button>
-        </div>
-    </section>
-
+    
     <section id="newsletter" class="section-p1 section-m1">
         <div class="newtext">
             <h4>Sign Up For Newsletters</h4>
@@ -265,8 +174,6 @@
         </div>
     </footer>
 
-
-    
 
     <script src="script.js"></script>
 </body>

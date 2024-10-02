@@ -1,0 +1,43 @@
+#page-header {
+    position: relative;
+    background-image: url('img/shopping/carparts.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    z-index: 1;
+}
+
+#page-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 30, 30, 0.5); /* Dark overlay, adjust the opacity */
+    z-index: -1; /* Places overlay behind the content */
+}
+
+#page-header h2, #page-header p {
+    color: rgb(233, 233, 230);
+    z-index: 1;
+}
+
+#pagination {
+    text-align: center;
+
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}

@@ -1,0 +1,85 @@
+
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 20px;
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 30px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details button {
+    background-color: #088178;
+    color: white;
+}
+
+#prodetails .single-pro-details:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details span {
+    line-height: 25px;
+}
+
+#product1 {
+    border-top: 2px solid #ccc; /* Change #ccc to your preferred color */
+    margin-top: 20px; /* Adjust spacing from the content above */
+    padding-top: 10px;
+}
+
+#product1 h2 {
+    margin-top: 30px
+}
+
+
+@media (max-width: 477px) {
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+       
+    }
+    
+}
+
+
+
+
